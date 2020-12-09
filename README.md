@@ -50,3 +50,10 @@
     * We remove all the NULL values because K-Means does not deal well with NULL values or 0 values.
     * Using the domain knowledge of stocks through papers published by NYU we determine the farthest maximum values that attributes of data is expected to be under. Anything over this maximum value is automatically discarded.
     * We use the above method rid the dataset of outliers.
+
+
+
+## Visualization:
+
+* Plotting our newly cleaned data we notice the following visualizations:
+* [Plot 1](https://github.com/Version-Max/stock_clustering/blob/main/images/plot_1.png)
