@@ -40,11 +40,13 @@
 
 ## Data Cleaning:
 
-  # Attribute Selection:
+  ### Attribute Selection:
     
     * Using multiple combinations of attributes and domain knowledge research, 3 attributes jumped out as consequential attributes in stock placements.
     * Major attributes: Return-On-Equirty (Financial Performance/Net Income), Return-On-Investment (Indicates the efficieny of the investment) and Return-On-Assets (indicates a respective company's profitability compared to its total assets)
     
-  # Data Preperation:
+  ### Data Preperation:
     
-    * Hello
+    * We remove all the NULL values because K-Means does not deal well with NULL values or 0 values.
+    * Using the domain knowledge of stocks through papers published by NYU we determine the farthest maximum values that attributes of data is expected to be under. Anything over this maximum value is automatically discarded.
+    * We use the above method rid the dataset of outliers.
