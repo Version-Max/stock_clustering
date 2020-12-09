@@ -1,1 +1,3 @@
-# stock_clustering
+# Clustering Stocks with K-Means Algorithm
+
+Alt-H2
