@@ -56,4 +56,11 @@
 ## Visualization:
 
 * Plotting our newly cleaned data we notice the following visualizations:
-* <img src='images/plot_1.png' width='50%' height='50%'>
+<img src='images/plot_1.png' width='50%' height='50%'>
+
+* We decided to use 3 standardization methods to devoid any of the attributes from distorting the clusters.
+* Methods to standardize: Z-Score Standardization, Min-Max-Standardization and Inter-Quartile-Range Standardization.
+* The following are the plots of such standardizations:
+<img src='images/plot_2.png' width='50%' height='50%'>
+<img src='images/plot_3.png' width='50%' height='50%'>
+<img src='images/plot_4.png' width='50%' height='50%'>
