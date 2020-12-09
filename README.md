@@ -8,7 +8,6 @@
 
 * Clustering will help in pointing common attributes/characteristics the clustered stocks share.
 
-Alt-H2
 ------
 
 
