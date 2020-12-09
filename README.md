@@ -2,7 +2,7 @@
 
 ## Basic Overview:
 
-* ### Goal: Create an algorithm that helps financial experts to categorize stocks with particular attributes in a specific cluster.
+* **Goal**: Create an algorithm that helps financial experts to categorize stocks with particular attributes in a specific cluster.
 
 * Stock selection, outlier detection, portfolio creation are important mechanisms for the financial industry to maximize and strategize the right investments in the stock market. Therefore, using certain indicators (often latent factors) we would attempt to cluster the given stocks to enable data driven decision making.
 
@@ -20,3 +20,9 @@
 * K-Means will ensure minimum distance between the data points and the K-centroids.
 
 ------
+
+## Resources and code used:
+
+* ***Python Version***: 3.8
+* ***Packages***: Pandas, Matplotlib, Axes3D from mpl_toolkits, Numpy, Normalizing tools (MinMaxScaler, RobustScaler, StandardScaler), Sklearn (PCA, KMeans, Metrics)
+* ***Data Source***: TD AmeriTrade (https://www.tdameritrade.com/api.page)
