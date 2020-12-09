@@ -58,3 +58,4 @@
 * Plotting our newly cleaned data we notice the following visualizations:
 * [Plot 1](https://github.com/Version-Max/stock_clustering/blob/main/images/plot_1.png)
 [logo]: https://github.com/Version-Max/stock_clustering/blob/main/images/plot_1.png "Logo Title Text 2"
+* <img src='images/plot_1.png'>
