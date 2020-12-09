@@ -59,8 +59,17 @@
 <img src='images/plot_1.png' width='50%' height='50%'>
 
 * We decided to use 3 standardization methods to devoid any of the attributes from distorting the clusters.
-* Methods to standardize: Z-Score Standardization, Min-Max-Standardization and Inter-Quartile-Range Standardization.
+* Methods to standardize: Z-Score Standardization, Min-Max-Standardization and Inter-Quartile-Range (IQR) Standardization.
 * The following are the plots of such standardizations:
-<img src='images/plot_2.png' width='50%' height='50%'>
-<img src='images/plot_3.png' width='50%' height='50%'>
-<img src='images/plot_4.png' width='50%' height='50%'>
+<img src='images/plot_2.png' width='25%' height='25%'>
+<img src='images/plot_3.png' width='25%' height='25%'>
+<img src='images/plot_4.png' width='25%' height='25%'>
+
+* Looking at the visualizations and scales it was decided to go for IQR standardized dataset
+
+## Exploring PCA:
+
+* PCA was explored to help model building gain speed.
+* PCA was a choice to explore dimensionality reduction because of its strength to lower the weight of the data without losing any significant meaning.
+* We discovered 2 components were able to give us almost 100% of variation in the data:
+<img src='images/plot_5.png' width='25%' height='25%'>
