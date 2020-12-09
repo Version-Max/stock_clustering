@@ -73,3 +73,19 @@
 * PCA was a choice to explore dimensionality reduction because of its strength to lower the weight of the data without losing any significant meaning.
 * We discovered 2 components were able to give us almost 100% of variation in the data:
 <img src='images/plot_5.png' width='25%' height='25%'>
+
+## Selecting number of Ks:
+
+* Sklearn's KMeans provides us a silhoutte function. This function ranges from (-1, 1).
+* Our aim is to get a silhouette score leaning more to 1.
+* n = 3 clusters gave us a score of 0.47 for IQR data and 0.48 for PCA data.
+
+## Model Building:
+
+* Using n = 3 we built a model for stock's standardized IQR_data.
+* The standardized IQR for stocks were able to clearly cluster itself:
+<img src='images/plot_6.png' width='25%' height='25%'>
+
+* Stock's PCA dataset was also model with 3 clusters.
+* The following is the distinct cluster the PCA with 2 components was able to achieve:
+<img src='images/plot_7.png' width='25%' height='25%'>
