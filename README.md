@@ -26,3 +26,4 @@
 * ***Python Version***: 3.8
 * ***Packages***: Pandas, Matplotlib, Axes3D from mpl_toolkits, Numpy, Normalizing tools (MinMaxScaler, RobustScaler, StandardScaler), Sklearn (PCA, KMeans, Metrics)
 * ***Data Source***: TD AmeriTrade (https://www.tdameritrade.com/api.page)
+* ***Stock Domain Knowledge 101***: [Source 1](https://www.researchgate.net/publication/4885243_Stock_selection_based_on_cluster_analysis), [Source 2](http://people.stern.nyu.edu/adamodar/New_Home_Page/data.html)
