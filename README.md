@@ -8,7 +8,6 @@
 
 * Clustering will help in pointing common attributes/characteristics the clustered stocks share.
 
-------
 
 
 ## Why K-Means clustering?
@@ -19,7 +18,7 @@
 
 * K-Means will ensure minimum distance between the data points and the K-centroids.
 
-------
+
 
 ## Resources and code used:
 
@@ -29,11 +28,23 @@
 * ***Stock Domain Knowledge 101***: [Source 1](https://www.researchgate.net/publication/4885243_Stock_selection_based_on_cluster_analysis), [Source 2](http://people.stern.nyu.edu/adamodar/New_Home_Page/data.html)
 * ***YouTube***: [Source 1](https://www.youtube.com/c/SigmaCoding/videos), [Source2](https://www.youtube.com/watch?v=EItlUEPCIzM)
 
-------
+
 
 ## Data Acquisition:
 
 * Accesed the TD AmeriTrade API to request stock data
 * Used 'request' library to enable API data acquisition
+* Original data consists of about 5.2K rows and 46 columns
+
+
 
 ## Data Cleaning:
+
+  # Attribute Selection:
+    
+    * Using multiple combinations of attributes and domain knowledge research, 3 attributes jumped out as consequential attributes in stock placements.
+    * Major attributes: Return-On-Equirty (Financial Performance/Net Income), Return-On-Investment (Indicates the efficieny of the investment) and Return-On-Assets (indicates a respective company's profitability compared to its total assets)
+    
+  # Data Preperation:
+    
+    * Hello
