@@ -12,3 +12,11 @@
 
 
 ## Why K-Means clustering?
+
+* K-Means is one of the easiest clustering algorithm to understand. The understanding behind the algorithm also enabled me to find right methods to clean & prepare the data along with selecting the right hyperparamaneter for the algorithm.
+
+* This understanding of the algorithm ensures that K-Means will be optimized in the right way to find structure in this unstructured stocks data.
+
+* K-Means will ensure minimum distance between the data points and the K-centroids.
+
+------
