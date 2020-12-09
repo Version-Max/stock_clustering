@@ -89,3 +89,8 @@
 * Stock's PCA dataset was also model with 3 clusters.
 * The following is the distinct cluster the PCA with 2 components was able to achieve:
 <img src='images/plot_7.png' width='25%' height='25%'>
+
+## Conclusion:
+
+* With the silhouette method and clustering analysis through visualization we have two models at hand.
+* The models equally perform well but are designed to serve a comprehensive operation by using PCA and IQR standardized data.
