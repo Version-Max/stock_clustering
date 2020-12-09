@@ -56,4 +56,4 @@
 ## Visualization:
 
 * Plotting our newly cleaned data we notice the following visualizations:
-* <img src='images/plot_1.png' width: 50% height: 50%;>
+* <img src='images/plot_1.png' width='50%' height='50%'>
